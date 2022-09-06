@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+header{
+    background-image: linear-gradient(to top, rgb(1, 54, 22), rgba(9, 194, 64, 0.76));
+    padding: 10px;
+    
+}
+header > h1{
+    text-align: center;
+}
+header > p {
+    text-align: center;
+}
+nav > a{
+    color: white;
+    padding: 10px;
+}
+nav > a:hover{
+    background-color: green;
+    border-radius: 15px;
+}
+body{
+    background-color: rgb(168, 212, 168);
+    margin: 0px;
+}
+main{
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+   
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.349);
+    
+}
+main > p{
+    text-indent: 30px;
+}
+h2{
+    background-image: linear-gradient(to right, rgb(168, 212, 168),white );
+}
+
+section{
+    background-color: green;
+    border-radius: 10px;
+    width: 690px;
+    margin: auto;
+    
+}
+section > h3 {
+    color: white;
+    padding: 10px 0px 0px 10px;
+}
+article{
+    background-color:rgb(168, 212, 168);  
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 20px 1px 20px;
+    margin: auto;
+}
+p > a{
+    color: green;
+    font-weight: bolder;
+}
+footer{
+    background-color: rgb(1, 105, 1);
+    color: white;
+    margin: 10px 0px 0px 0px ;
+    text-align: center;
+    padding: 4px;
+}
+footer > p {
+    margin: 0 ;
+}

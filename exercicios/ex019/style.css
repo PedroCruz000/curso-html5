@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{background-color: #AAAE8E;}
+h1{
+    color: #3A606E;
+
+}
+h2{
+    color: #607B7D;
+
+}
+.principal{
+    text-align: center;
+    color: #3A606E;
+    background-color: azure;
+
+}
+.avançado{
+    
+    font-weight: 200;
+
+}
+.intermediario{
+
+
+}
+.destaque{
+    
+
+}
