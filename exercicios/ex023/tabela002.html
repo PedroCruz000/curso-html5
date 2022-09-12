@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+<style>
+    table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+    }
+    td ,th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+   
+    
+    thead, tfoot{
+        background-color: rgb(88, 88, 88);
+        color: white;
+    }
+    thead > tr >th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(88, 88, 88);
+    }
+    caption{
+        padding: 5px;
+        font-size: 1.5em;
+        background-color: rgb(221, 221, 221);
+
+    }
+    tbody > tr:nth-child(2n){
+        background-color: antiquewhite;
+    }
+    tbody > tr:nth-child(2n-1){
+        background-color: rgb(196, 196, 196);
+    }
+    .num{
+        text-align: right;
+    }
+   
+</style>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!-- anatomia para tabelas grandes 
+        table
+            CAPTION (LEGENDA DA TABELA)
+            thead
+                tr,td,th
+            tbody
+                tr,td,th
+            tfoot
+                tr,td,th
+            -->
+    <table>
+        <caption>
+            População das unidades federativas
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 100px;">população</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <th class="num"><strong>000</strong></th>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat beatae suscipit cum nam ducimus atque deleniti! Alias quia dolor ipsa vero aut qui hic sunt ex, dolorem facere officiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsum quibusdam sed asperiores, eius alias perspiciatis corporis cumque! Enim dicta quia officiis eaque aliquam harum odio a recusandae facilis nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus laudantium magni error, fugit nostrum ipsam illo perspiciatis autem eius tenetur debitis commodi minus, vel non amet. Nobis, ipsum ad? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis eius maxime accusantium fugiat enim dignissimos nesciunt nostrum reprehenderit voluptatum atque modi tempora ullam voluptatem hic, dicta vero error delectus? Dolorum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ut fugit consequuntur asperiores voluptates esse officia sapiente recusandae ea, sed quae, a optio illum ipsam et commodi. Sequi, voluptatibus dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum alias perspiciatis officiis eaque, eligendi officia accusamus, consequatur minus natus provident earum cupiditate asperiores, quidem dolorum ipsa suscipit exercitationem dignissimos! Sequi?</p>
+    
+</body>
+</html>
