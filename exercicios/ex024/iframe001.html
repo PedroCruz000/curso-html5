@@ -5,17 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>estudando iframe</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
     <h1>testando o uso de um iframe</h1>
-    <p>Acessando o site do <a href="https://www.cursoemvideo.com/cursos/#google_vignette">curso em video</a> para  aprender a programar </p>
+    <p>Acessando o site do <a href="https://www.cursoemvideo.com/cursos/#google_vignette" frameborder="3">curso em video</a> para  aprender a programar </p>
 
+    <!-- tamano padrão 300px x 150 -->
     <p>Acessando o site do 
-        <iframe src="https://www.cursoemvideo.com/cursos/#google_vignette" frameborder="0"></iframe>
+        <iframe src="https://www.cursoemvideo.com/cursos/#google_vignette" frameborder="50"></iframe>
         para  aprender a programar 
     </p>
     <p>
-        o site do <iframe src="https://www.google.com/" frameborder="0"></iframe> é muito legal 
+        o site do 
+        <iframe src="https://www.google.com/" frameborder="0" height="500" width="500">
+            <a href="https://www.cursoemvideo.com/cursos/#google_vignette"> Curso em video</a>
+
+        </iframe> é muito legal 
     </p>
 </body>
 </html>
